@@ -12,7 +12,7 @@ options = Options()
 
 # Launch browser
 driver = webdriver.Chrome(service=service, options=options)
-driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")git
+driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
 # Wait briefly to let elements load (you can improve this with WebDriverWait)
 import time

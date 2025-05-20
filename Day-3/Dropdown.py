@@ -19,7 +19,7 @@ print(driver.current_url)
 drowpdownele = Select(driver.find_element(By.XPATH, "//select[@id='country']"))
 
 # ✅ 1. Select by visible text
-drowpdownele.select_by_visible_text("India")
+drowpdownele.select_by_visible_text("India").click()
 
 # ✅ 2. Select by value (check option HTML value)
 #drowpdownele.select_by_value("1")
